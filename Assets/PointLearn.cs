@@ -11,8 +11,8 @@ public class PointLearn : MonoBehaviour
     {
         if (col.gameObject.tag == "Finn")
         {
-            SceneManager.LoadScene(0);
-Debug.Log("Finish");
+            SceneManager.LoadScene(1);
+            Debug.Log("Finish");
         }
     }
 }

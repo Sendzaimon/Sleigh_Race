@@ -60,7 +60,7 @@ public class AddForce : MonoBehaviour
 
     private void OnTriggerEnter(Collider other)
     {
-        if (other.tag == "C_Point")
+        if (other.tag == "C_Point1")
         {
             last_point.position = other.transform.position;
 
